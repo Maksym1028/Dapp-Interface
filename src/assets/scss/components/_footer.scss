@@ -1,0 +1,11 @@
+.footer {
+  margin-top: 30px;
+
+  &-item {
+    margin-right: 30px !important;
+
+    &:last-child {
+      margin-right: 0px !important;
+    }
+  }
+}

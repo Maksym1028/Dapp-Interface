@@ -1,0 +1,36 @@
+.timer {
+  margin-bottom: 35px;
+  margin-top:20px;
+
+  &__section {
+    text-align: center;
+    display: inline-block;
+    padding: 5px 25px;
+    border: 2px solid $red;
+    color: $red;
+	  min-width: 80px;
+    margin-right: 20px;
+    margin-top: 20px;
+
+    @media screen and (max-width: $tablet) {
+      padding: 5px 10px;
+    }
+
+    &:last-child {
+      margin-right: 0px;
+
+      @media screen and (max-width: $tablet) {
+        margin-right: 20px;
+      }
+    }
+
+    & b {
+      font-size: 4em;
+      display: block;
+
+      @media screen and (max-width: $tablet) {
+        font-size: 1.8em;
+      }
+    }
+  }
+}

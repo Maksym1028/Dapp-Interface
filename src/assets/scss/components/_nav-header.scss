@@ -1,0 +1,27 @@
+.nav-header {
+  -webkit-box-align: center;
+  align-items: center;
+  display: flex;
+  height: 72px;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+
+  @media screen and (min-width: $desktop) {
+    display: flex !important;
+  }
+
+  @media screen and (max-width: $small) {
+    display: block !important;
+  }
+
+  @media screen and (max-width: $mobile) {
+    display: block !important;
+  }
+
+  @media screen and (max-width: $tablet) {
+    display: block !important;
+
+  }
+}

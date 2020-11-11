@@ -1,0 +1,104 @@
+.container {
+  width: calc(100% - 30px);
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+  @media screen and (min-width: $small) {
+    max-width: 360px;
+	  text-align: center;
+    padding-top: 20px;
+  }
+
+  @media screen and (min-width: $mobile) {
+    max-width: 540px;
+	  text-align: center;
+    padding-top: 20px;
+  }
+
+  @media screen and (min-width: $tablet) {
+    max-width: 720px;
+	  text-align: center;
+    padding-top: 20px;
+  }
+
+  @media screen and (min-width: $medium) {
+    max-width: 960px;
+    padding-top: 0px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    max-width: 1140px;
+    padding-top: 0px;
+  }
+}
+
+.centerhnew {
+
+  @media screen and (min-width: $small) {
+    display: block !important;
+  }
+
+  @media screen and (min-width: $mobile) {
+    display: block !important;
+  }
+
+  @media screen and (min-width: $tablet) {
+    display: block !important;
+  }
+}
+
+.halfcard{
+
+  @media screen and (max-width: $small) {
+    width:100%;
+  }
+
+  @media screen and (max-width: $mobile) {
+    width:100%;
+  }
+
+  @media screen and (max-width: $tablet) {
+    width:100%;
+  }
+
+  @media screen and (max-width: $desktop) {
+    width:100%;
+  }
+}
+
+.datasplit{
+
+  @media screen and (max-width: $small) {
+    width:100%;
+  }
+
+  @media screen and (max-width: $mobile) {
+    width:100%;
+  }
+
+  @media screen and (max-width: $tablet) {
+    width:100%;
+  }
+
+  @media screen and (max-width: $desktop) {
+    width:100%;
+  }
+}
+
+.ybullets{
+
+  @media screen and (max-width: $small) {
+    display: none;
+  }
+
+  @media screen and (max-width: $mobile) {
+    display: none;
+  }
+
+  @media screen and (max-width: $tablet) {
+    display: none;
+
+  }
+}

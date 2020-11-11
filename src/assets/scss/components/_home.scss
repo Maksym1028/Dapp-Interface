@@ -1,0 +1,36 @@
+.home {
+  &-container {
+    display: flex;
+
+    @media screen and (max-width: $desktop) {
+      display: block;
+    }
+  }
+
+  &-timer {
+    width: 100%;
+
+    @media screen and (max-width: $tablet) {
+      width: auto;
+      margin: 10px 15px;
+    }
+  }
+
+  &-info {
+    width: 100%;
+	  padding-top: 80px;
+	  padding-bottom: 40px;
+
+    @media screen and (max-width: $tablet) {
+      width: auto;
+      padding: 20px 15px 10px 15px;
+    }
+
+    &__container {
+
+      @media screen and (max-width: $tablet) {
+        width: 250px;
+      }
+    }
+  }
+}

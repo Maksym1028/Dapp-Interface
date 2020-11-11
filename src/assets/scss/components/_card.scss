@@ -1,0 +1,124 @@
+.card {
+  color: #A2ABB7 !important;
+
+  &:last-child {
+    margin: 0 !important;
+  }
+
+  &.card-v {
+    margin-bottom: 0px;
+	  border: 2px solid #E6E8EA;
+    border-radius: 0px !important;
+	  box-shadow: none !important;
+
+    @media screen and (max-width: $tablet) {
+      margin-bottom: 20px;
+    }
+  }
+
+  &.card-h {
+    margin-right: 50px;
+    width: 360px;
+
+    @media screen and (max-width: $desktop) {
+      width: 300px;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      margin-bottom: 30px !important;
+    }
+
+    &.medium {
+      width: 300px;
+      border: 2px solid #E6E8EA;
+      border-radius: 0px !important;
+      box-shadow: none;
+    }
+  }
+
+  & b {
+    display: block;
+    font-size: 1.8em;
+
+    @media screen and (max-width: $tablet) {
+      font-size: 1.5em;
+    }
+  }
+}
+
+.MuiCardContent-root {
+  padding: 15px 15px 25px 15px;
+}
+
+.datasplit {
+  width: 50%;
+  min-width: 50%;
+  font-size: 0.8rem;
+}
+
+.ybullets {
+	color: #F4EDED
+}
+
+.ystatshead {
+	color: $red;
+	font-family: Moderat;
+	font-style: normal;
+  font-weight: 702;
+  margin-bottom: 10px;
+}
+
+.ystatstitle {
+	color: $red;
+	font-family: Moderat;
+	font-style: normal;
+	font-weight: 702;
+	text-align: center;
+}
+
+.cardoutline {
+	border: 2px solid #E6E8EA;
+  border-radius: 0px !important;
+	padding: 20px;
+}
+
+.blackdata {
+  color: #333333;
+  text-align: left;
+  margin-left: 5px;
+  font-size: 0.8rem;
+
+  @media screen and (max-width: $desktop) {
+    text-align: center;
+  }
+}
+
+.halfcard {
+	width: 50%;
+}
+
+.boxsize {
+	min-width: 200px;
+	color: $red;
+	text-align: center;
+}
+
+.homeboxspace {
+  margin-right: 135px;
+  
+  @media screen and (max-width: $desktop) {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+}
+
+.greyme{
+	color: #A2ABB7
+}
+
+.redme{
+	color: $red
+}
+
+.widebutt {
+	width: 595px;
+}

@@ -1,0 +1,170 @@
+.flex-v {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-h {
+  display: flex;
+  flex-direction: row;
+
+  @media screen and (max-width: $small) {
+    display: block;
+  }
+
+  @media screen and (max-width: $mobile) {
+    display: block;
+  }
+
+  @media screen and (max-width: $tablet) {
+    display: block;
+  }
+
+  @media screen and (max-width: $desktop) {
+    display: block;
+  }
+}
+
+
+.center-h {
+  display: flex;
+  justify-content: center;
+}
+
+.center-v {
+  display: flex;
+  align-items: center;
+
+  @media screen and (min-width: $small) {
+    display: block;
+  }
+
+  @media screen and (min-width: $mobile) {
+    display: block;
+  }
+
+  @media screen and (min-width: $tablet) {
+    display: block;
+  }
+}
+
+.screen-center {
+  min-height: calc(100vh - 214px);
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  & .bottom-right {
+    position: absolute;
+    right: 3px;
+    bottom: 3px;
+  }
+
+  & .bottom-left {
+    position: absolute;
+    left: 3px;
+    bottom: 3px;
+  }
+
+  & .bottom-middle {
+    position: absolute;
+    left: auto;
+    right: auto;
+    bottom: 3px;
+  }
+}
+
+.transparent {
+  background-color: transparent !important;
+}
+
+.section {
+  padding: 10px 20px;
+}
+
+.w-100 {
+  width: 100px;
+}
+
+.w-200 {
+  width: 200px;
+}
+
+.w-300 {
+  width: 300px;
+}
+
+.wp-50 {
+  width: 50%;
+}
+
+.wp-100 {
+  width: 100%;
+}
+
+.mb-5 {
+  margin-bottom: 5px !important;
+}
+
+.mb-10 {
+  margin-bottom: 10px !important;
+}
+
+.mb-20 {
+  margin-bottom: 20px !important;
+}
+
+.mb-30 {
+  margin-bottom: 30px !important;
+}
+
+.mb-50 {
+  margin-bottom: 50px !important;
+}
+
+.mt-5 {
+  margin-top: 5px !important;
+}
+
+.mt-10 {
+  margin-top: 10px !important;
+}
+
+.mt-20 {
+  margin-top: 20px !important;
+}
+
+.mt-30 {
+  margin-top: 30px !important;
+}
+
+.mt-50 {
+  margin-top: 50px !important;
+}
+
+.mr-10 {
+  margin-right: 10px !important;
+}
+
+.mr-20 {
+  margin-right: 20px !important;
+}
+
+.mr-30 {
+  margin-right: 30px !important;
+}
+
+h1 {
+  @media screen and (max-width: $tablet) {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+}
+
+h2 {
+  font-size: 1.5em;
+
+  @media screen and (max-width: $tablet) {
+    font-size: 1.2em;
+  }
+}

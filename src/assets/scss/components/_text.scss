@@ -1,0 +1,42 @@
+.text {
+  &-title {
+    font-size: 2rem;
+    color: $red;
+    font-weight: bold;
+
+    @media screen and (max-width: $tablet) {
+      font-size: 1em;
+    }
+  }
+
+  &-number {
+    display: block;
+    font-size: 1.8em;
+    font-weight: bold;
+
+    @media screen and (max-width: $tablet) {
+      font-size: 1.5em;
+    }
+
+    &.small {
+      font-size: 1.4em;
+    }
+  }
+
+  &-small {
+    color: #A2ABB7;
+
+    @media screen and (max-width: $tablet) {
+      font-size: 0.8em;
+    }
+  }
+
+  &-error {
+    color: $red;
+    font-size: 1rem;
+  }
+
+  &-gray {
+    color: $dark-gray;
+  }
+}
